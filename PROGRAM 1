@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class Animal{
+    protected:
+    string name;
+    public:
+    void getName(){
+        cout<<name;
+    }
+    
+};
+class Mammals: public Animal{
+  protected:
+  int numLegs;
+  public:
+  void getNumLegs(){
+      cout<<numLegs;
+  }
+};
+int main(){
+    
+}
+
